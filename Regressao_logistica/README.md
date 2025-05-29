@@ -1,26 +1,63 @@
-
 # Análise de Sentimentos em Tweets com Regressão Logística
 
-Este projeto apresenta uma implementação prática de **Processamento de Linguagem Natural (NLP)** com foco em **análise de sentimentos**, utilizando tweets rotulados como positivos ou negativos. O objetivo principal é construir um modelo de classificação utilizando **Regressão Logística**, passando por etapas como pré-processamento de texto, extração de características e avaliação do desempenho do modelo.
+Este projeto tem como objetivo construir um modelo simples de aprendizado de máquina para realizar **análise de sentimentos** em tweets, utilizando técnicas de **Processamento de Linguagem Natural (NLP)**.
 
-## Sobre o Projeto
+## 🔍 Sobre o Projeto
 
-O notebook está estruturado de forma didática, explicando o funcionamento das principais funções utilizadas ao longo do processo. Entre elas:
+O notebook contém uma explicação passo a passo de como aplicar um pipeline básico de NLP para classificar sentimentos (positivos ou negativos) em textos curtos como tweets. Ao longo do projeto, são abordadas e explicadas funções fundamentais para pré-processamento de texto, extração de características e construção de modelos de classificação usando regressão logística.
 
-- Limpeza e padronização de textos (remoção de ruídos, tokenização, stemming).
-- Cálculo de frequências de palavras associadas aos sentimentos.
-- Criação de vetores de características para alimentar o modelo.
-- Treinamento e avaliação de um modelo de regressão logística.
+A análise de sentimentos é amplamente utilizada no mercado para entender a opinião de usuários sobre produtos, serviços, campanhas políticas, eventos e marcas. É uma ferramenta poderosa para tomada de decisão baseada em dados.
 
-Ao final, também é possível testar o modelo com um tweet personalizado e obter a previsão de sentimento (positivo ou negativo).
+## 📌 Etapas do Projeto
 
-## Importância da Análise de Sentimentos
+O projeto está organizado nas seguintes partes:
 
-A análise de sentimentos é uma ferramenta amplamente utilizada no mercado para compreender a opinião de usuários e consumidores em redes sociais, avaliações de produtos, feedbacks e outros canais de comunicação. Empresas usam essa técnica para:
+1. **Importação e exploração do dataset**  
+   - Carregamento de tweets rotulados (positivos e negativos) com NLTK.
 
-- Monitorar a reputação da marca em tempo real.
-- Avaliar a recepção de campanhas de marketing.
-- Melhorar produtos e serviços com base no retorno dos clientes.
-- Automatizar a triagem de comentários e mensagens recebidas.
+2. **Pré-processamento dos textos**  
+   - Limpeza dos tweets, remoção de ruídos, tokenização, stopwords e stemming.
 
-Este projeto serve como base introdutória para entender como modelos de machine learning podem ser aplicados em tarefas reais de análise de sentimento.
+3. **Análise de frequência**  
+   - Construção de um dicionário com as palavras mais frequentes e seus rótulos associados.
+
+4. **Regressão logística**  
+   - Implementação do modelo de aprendizado supervisionado para prever sentimentos.
+
+5. **Treinamento do modelo**  
+   - Aplicação do gradiente descendente para ajustar os pesos do modelo.
+
+6. **Testando o modelo**  
+   - Verificação de previsões com base em novos exemplos.
+
+7. **Verificação de desempenho**  
+   - Cálculo da acurácia em um conjunto de teste separado.
+
+8. **Teste seu próprio tweet**  
+   - O usuário pode testar frases customizadas e verificar a predição do modelo.
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python
+- NLTK (Natural Language Toolkit)
+- NumPy
+- Regressão Logística (implementada do zero)
+
+## 📈 Aplicações no Mercado
+
+A análise de sentimentos é muito usada em:
+
+- Monitoramento de redes sociais
+- Pesquisa de opinião pública
+- Análise de feedback de clientes
+- Automação de SAC e atendimento
+- Marketing direcionado
+
+Compreender como o público se sente em relação a uma marca ou produto pode ser essencial para o sucesso de estratégias comerciais e institucionais.
+
+## ✅ Como usar
+
+Este projeto está em formato de notebook Jupyter/Colab. Basta seguir a sequência das células para acompanhar a explicação e execução do modelo. Todas as funções utilizadas são explicadas no próprio notebook.
+
+---
+
