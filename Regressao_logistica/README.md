@@ -8,6 +8,8 @@ O notebook contém uma explicação passo a passo de como aplicar um pipeline b�
 
 A análise de sentimentos é amplamente utilizada no mercado para entender a opinião de usuários sobre produtos, serviços, campanhas políticas, eventos e marcas. É uma ferramenta poderosa para tomada de decisão baseada em dados.
 
+A ideia deste projeto foi inspirada no curso da Coursera **Natural Language Processing Specialization**, especificamente no módulo **Processamento de linguagem natural com classificação e espaços vetoriais**, que faz parte da especialização em Deep Learning.
+
 ## 📌 Etapas do Projeto
 
 O projeto está organizado nas seguintes partes:
@@ -60,4 +62,3 @@ Compreender como o público se sente em relação a uma marca ou produto pode se
 Este projeto está em formato de notebook Jupyter/Colab. Basta seguir a sequência das células para acompanhar a explicação e execução do modelo. Todas as funções utilizadas são explicadas no próprio notebook.
 
 ---
-
