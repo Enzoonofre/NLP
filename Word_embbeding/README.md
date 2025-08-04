@@ -31,7 +31,7 @@ Para rodar o projeto, você precisará dos seguintes arquivos:
 ## Como executar
 
 1. Clone este repositório.
-2. Certifique-se de que os arquivos `word_embeddings_subset.p` e `capitals.txt` estejam no diretório correto.
+2. Certifique-se de que os arquivos `word_embeddings_subset.p`, `capitals.txt` e `utils.py`  estejam no diretório correto.
 3. Abra o notebook em um ambiente como Jupyter Notebook.
 4. Execute as células para carregar os dados, realizar os cálculos e visualizar os resultados das comparações e da PCA.
 
@@ -40,7 +40,8 @@ Para rodar o projeto, você precisará dos seguintes arquivos:
 ```
 ├── word_embeddings_subset.p
 ├── capitals.txt
-├── hello_vectors.ipynb
+├── utils.py
+├── Word_embbeding.ipynb
 └── README.md
 ```
 
